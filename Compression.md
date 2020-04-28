@@ -13,7 +13,7 @@ CLausIE may extract multiple things from One sentnce, Therefore you might see re
 Sentence 1:
 The elder brother was disappointed with the number of apples.
 | Our proposed IE           | ClausIE                                                                 | AllenNLP SRL                                 |
-| ------------- ----------: |:-----------------------------------------------------------------------:|:--------------------------------------------:|
+| ------------------------: |:-----------------------------------------------------------------------:|:--------------------------------------------:|
 | Subject: The elder brother| Subject: The elder brother                                              |  Verb: was                                   |
 | Verb: disappointed        | verb: was                                                               |  ARG1: The elder brother                     |
 | Description_Verb: Emotion | indirectobject:                                                         |  ARG2: disappointed with the number of apples|
@@ -31,7 +31,7 @@ The elder brother was disappointed with the number of apples.
 Sentence 2:
 The magical tree instead showered upon the elder brother hundreds upon hundreds of tiny needles.
 | Our proposed IE                                       | ClausIE                                                                 | AllenNLP SRL                                 |
-| ------------- --------------------------------------: |:-----------------------------------------------------------------------:|:--------------------------------------------:|
+| ----------------------------------------------------: |:-----------------------------------------------------------------------:|:--------------------------------------------:|
 | Subject: a magical tree                               | Subject: The magical tree                                               |  Verb: Showerd                               |
 | Verb: shower_on                                       | verb: showered                                                          |  ARG0: The magical tree                      |
 | Description_Verb:                                     | indirectobject:                                                         |  ARG1: hundreds upon hundreds of tiny needles|
