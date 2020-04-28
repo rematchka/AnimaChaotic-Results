@@ -7,11 +7,11 @@
   - Arg4	the	end	point
   - (Arg2-Arg5	are	not	really	that	consistent,	causes	a	problem	for	labeling)
 
--CLausIE may extract multiple things from One sentnce, Therefore you might see repitition
+- CLausIE may extract multiple things from One sentnce, Therefore you might see repitition
 
 
-Sentence 1:
-The elder brother was disappointed with the number of apples.
+- Sentence 1:
+  - The elder brother was disappointed with the number of apples.
 | Our proposed IE           | ClausIE                                                                 | AllenNLP SRL                                 |
 | ------------------------: |:-----------------------------------------------------------------------:|:--------------------------------------------:|
 | Subject: The elder brother| Subject: The elder brother                                              |  Verb: was                                   |
@@ -28,8 +28,8 @@ The elder brother was disappointed with the number of apples.
 | Speech                    | Adverb:                                                                 |                                              |
 | Imperative:               |                                                                         |                                              |
 
-Sentence 2:
-The magical tree instead showered upon the elder brother hundreds upon hundreds of tiny needles.
+- Sentence 2:
+  - The magical tree instead showered upon the elder brother hundreds upon hundreds of tiny needles.
 | Our proposed IE                                       | ClausIE                                                                 | AllenNLP SRL                                 |
 | ----------------------------------------------------: |:-----------------------------------------------------------------------:|:--------------------------------------------:|
 | Subject: a magical tree                               | Subject: The magical tree                                               |  Verb: Showerd                               |
@@ -52,8 +52,8 @@ The magical tree instead showered upon the elder brother hundreds upon hundreds 
 |                                                       | adverb: of tiny needles                                                 |                                              |
 
 
-Sentence 3:
-She asked: "Mum, I need your advice for the concert"
+- Sentence 3:
+  - She asked: "Mum, I need your advice for the concert"
 | Our proposed IE                                 | ClausIE                                                                 | AllenNLP SRL                                 |
 | ----------------------------------------------: |:-----------------------------------------------------------------------:|:--------------------------------------------:|
 | Subject: She                                    | Subject: She                                                            |  Verb: asked                                 |
@@ -71,8 +71,8 @@ She asked: "Mum, I need your advice for the concert"
 |Imperative: False                                |                                                                         |                                              |
 
 
-Sentence 4:
-Once a hungry fox entered a village.
+- Sentence 4:
+  - Once a hungry fox entered a village.
 | Our proposed IE                                 | ClausIE                                                                 | AllenNLP SRL                                 |
 | ----------------------------------------------: |:-----------------------------------------------------------------------:|:--------------------------------------------:|
 | Subject: a hungry fox                           | Subject: a hungry fox                                                   |  Verb: entered                               |
