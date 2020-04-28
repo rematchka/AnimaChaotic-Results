@@ -1,11 +1,11 @@
--Comparing AnimaChaotic Information Extraction system, with ClausIE and AllenNLP semantic role labelling
--To understand SRL labelles extrated by ALLenNLP
-  -Arg0:	PROTO-AGENT
-  -Arg1: PROTO-PATIENT
-  -Arg2:	usually:	benefactive,	instrument,	attribute,	or	end	state
-  -Arg3:	usually:	start	point,	benefactive,	instrument,	or	attribute
-  -Arg4	the	end	point
-  -(Arg2-Arg5	are	not	really	that	consistent,	causes	a	problem	for	labeling)
+- Comparing AnimaChaotic Information Extraction system, with ClausIE and AllenNLP semantic role labelling
+- To understand SRL labelles extrated by ALLenNLP
+  - Arg0:	PROTO-AGENT
+  - Arg1: PROTO-PATIENT
+  - Arg2:	usually:	benefactive,	instrument,	attribute,	or	end	state
+  - Arg3:	usually:	start	point,	benefactive,	instrument,	or	attribute
+  - Arg4	the	end	point
+  - (Arg2-Arg5	are	not	really	that	consistent,	causes	a	problem	for	labeling)
 
 -CLausIE may extract multiple things from One sentnce, Therefore you might see repitition
 
