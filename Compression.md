@@ -12,6 +12,7 @@
 
 - Sentence 1:
   - The elder brother was disappointed with the number of apples.
+  
 | Our proposed IE           | ClausIE                                                                 | AllenNLP SRL                                 |
 | ------------------------: |:-----------------------------------------------------------------------:|:--------------------------------------------:|
 | Subject: The elder brother| Subject: The elder brother                                              |  Verb: was                                   |
@@ -30,6 +31,7 @@
 
 - Sentence 2:
   - The magical tree instead showered upon the elder brother hundreds upon hundreds of tiny needles.
+  
 | Our proposed IE                                       | ClausIE                                                                 | AllenNLP SRL                                 |
 | ----------------------------------------------------: |:-----------------------------------------------------------------------:|:--------------------------------------------:|
 | Subject: a magical tree                               | Subject: The magical tree                                               |  Verb: Showerd                               |
@@ -54,6 +56,7 @@
 
 - Sentence 3:
   - She asked: "Mum, I need your advice for the concert"
+  
 | Our proposed IE                                 | ClausIE                                                                 | AllenNLP SRL                                 |
 | ----------------------------------------------: |:-----------------------------------------------------------------------:|:--------------------------------------------:|
 | Subject: She                                    | Subject: She                                                            |  Verb: asked                                 |
@@ -73,6 +76,7 @@
 
 - Sentence 4:
   - Once a hungry fox entered a village.
+  
 | Our proposed IE                                 | ClausIE                                                                 | AllenNLP SRL                                 |
 | ----------------------------------------------: |:-----------------------------------------------------------------------:|:--------------------------------------------:|
 | Subject: a hungry fox                           | Subject: a hungry fox                                                   |  Verb: entered                               |
