@@ -6,6 +6,15 @@
   - Arg3:	usually:	start	point,	benefactive,	instrument,	or	attribute
   - Arg4	the	end	point
   - (Arg2-Arg5	are	not	really	that	consistent,	causes	a	problem	for	labeling)
+  - ArgM’s include:
+      - TMP when? yesterday evening, now
+      - LOC where? at the museum, in San Francisco
+      - DIR where to/from? down, to Bangkok
+      - MNR how? clearly, with much enthusiasm
+      - PRP/CAU why? because ... , in response to the ruling
+      - REC themselves, each other
+      - ADV miscellaneous
+      - PRD secondary predication ...ate the meat raw
 
 - CLausIE may extract multiple things from One sentnce, Therefore you might see repitition
 
